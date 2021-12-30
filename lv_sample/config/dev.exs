@@ -13,7 +13,7 @@ config :lv_sample, LvSampleWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "fD9jv414VgC0NiZOB09SkLD0k0ZZgaPfJLgRnVSmT646p/5CpNeo3h0ijT7lKKjQ",
+  secret_key_base: "eQwTxvpLnNh4wRzAIcAxOdWPITben3eIUSJyZDzSVTQ2rL5HyEVCOwXysDrXLiXm",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}

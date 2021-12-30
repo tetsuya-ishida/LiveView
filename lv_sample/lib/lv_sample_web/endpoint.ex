@@ -7,7 +7,7 @@ defmodule LvSampleWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_lv_sample_key",
-    signing_salt: "G74gW6GJ"
+    signing_salt: "+XtrFKth"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]

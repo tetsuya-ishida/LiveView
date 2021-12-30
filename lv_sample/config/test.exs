@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :lv_sample, LvSampleWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "E1qbnPAVEqe1fYy2CtWWmKg+k0EoyUhPPPP4U+wPIF1YggAaWR0bPu6VZu/hGHKa",
+  secret_key_base: "l+6eP3jGMw2i/XG+PE5m0qFH4kojxj3lHBSD9i2yMt7clw/a9yGIeS3JAXWVO31u",
   server: false
 
 # In test we don't send emails.

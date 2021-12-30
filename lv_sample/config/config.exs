@@ -12,7 +12,7 @@ config :lv_sample, LvSampleWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: LvSampleWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: LvSample.PubSub,
-  live_view: [signing_salt: "i5hIBx1Q"]
+  live_view: [signing_salt: "HMpv3uLL"]
 
 # Configures the mailer
 #
